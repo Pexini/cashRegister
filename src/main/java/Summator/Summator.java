@@ -1,6 +1,7 @@
-package org.example;
+package Summator;
 
 public class Summator {
+    private int result = 0;
 
 
     public Summator(int number) {
@@ -14,7 +15,6 @@ public class Summator {
         }
     }
 
-    int result = 0;
     public void add(int price) {
         result += price;
     }
